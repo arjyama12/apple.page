@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    width: 100%;
+    height: 30px;
+}
+.logo img{
+    top: 0.5rem;
+    left: 6%;
+    width: 140px;
+    height: 50px;
+}
+.container .text{
+    position: relative;
+    top: 15rem;
+    left: 50%;
+}
+.container-fluid{
+    box-shadow: 7px 7px 10px rgb(199, 198, 198);
+}
+.container .text h1{
+    font-size: 40px;
+    margin-bottom: 37px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 650;
+    word-spacing: 3px;
+    letter-spacing: 2.6px;
+    text-shadow: 2px 2px 2px gray;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22.7px;
+    font-weight: 430;
+}
+.container .text button{
+    height: 51px;
+    width: 98px;
+}
+.container .text button.btn{
+    background-color: rgb(207, 16, 16);
+    color: white;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px gray;
+    font-weight: 450;
+}
+.container .text button.btn:hover{
+    background: darkblue;
+    color: white;
+    border-radius: 7px;
+    font-weight: 450;
+    box-shadow: 3px 3px 3px black;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-shadow: 1.5px 1.5px 1.5px grey;
+}
+.nav-item .nav-link:hover{
+    color: rgb(104, 1, 1);
+    font-size: 23px;
+    text-shadow: 2px 2px 2px grey;
+}
+img{
+    position: absolute;
+    top: 24%;
+    left: 16.4%;
+    width: 500px;
+    height: 410px;
+}
+@media only screen and (max-width: 1200px){
+    h1{
+        margin-left: 30%;
+        margin-top: 40%;
+    }
+    p{
+        margin-left: 30%;
+        margin-top: 40%;
+    }
+    img{
+        margin-top: -20%;
+    }
+    .container .text button.btn{
+        margin-left: 30%;
+    }
+}
